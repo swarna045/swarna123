@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<style>
+*{
+box-sizing:border box;
+}
+.box {
+background-color:aquablue;
+margin:0px;
+padding:0px;
+border-radius:25 25 0 0;
+}
+#hepsi{
+color:red;
+}
+</style>
+</head>
+<body>
+<script>
+function turnon(){
+document.getElementById("hepsi").innerHTML="prasanna"
+}
+function turnoff(){
+document.getElementById("hepsi").innerHTML="swarna"
+}
+</script>
+<div class="box">
+<button onclick="turnon()" style="background-color:yellow";>Turn on</button>
+<p id="hepsi">prasanna</p>
+<button onclick="turnoff()" style="background-color:pink";>Turn off</button></div>
+</body>
+</html>
